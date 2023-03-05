@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin-Dash</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+    <script src="/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Font awesome icons cdn-->
+
+    <!-- Getting icons from :  
+
+    https://fontawesome.com/icons
+    
+    -->
+    <!-- Login Screen -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container">
+        <a href="/html/index.html" class="navbar-brand">SEEU</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <div class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/html/editor.html" class="nav-link text-white">Editor</a>
+            </li>
+            <li class="nav-item">
+              <a href="/html/admin-dash.html" class="nav-link text-white"
+                >Admin Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/html/leaderboard.html" class="nav-link text-white"
+                >Leaderboard</a
+              >
+            </li>
+            <li class="nav-item" id="">
+              <a href="/html/login.html" class="nav-link text-white">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a href="/html/register.html" class="nav-link text-white"
+                >Register</a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="admin-dash" id="admin-dash">
+      <div class="container">
+        <h3>Admin Dashboard</h3>
+        <form action="#" class="admin-form">
+          <h2>Enter Question Here</h2>
+
+          <textarea
+            name="textarea"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Add text"
+          ></textarea>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+      <div></div>
+    </section>
+    <script src="app.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+  </body>
+</html>
